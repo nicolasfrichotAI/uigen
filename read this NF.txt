@@ -1,0 +1,4 @@
+Open your browser and go to:
+http://localhost:3000
+You should see the app running. And remember — every time you want to start it, use this command instead of npm run dev:
+cmdset NODE_OPTIONS=--require ./node-compat.cjs && npx next dev --turbopack
